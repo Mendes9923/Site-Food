@@ -1,0 +1,311 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@400;700&display=swap');*/
+
+/*Fontes Externas*/
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+img {
+    max-width: 100%;
+}
+
+.one {
+    width: 100%;
+    height: 4px;
+    background: #f2e41b;
+}
+
+
+/* ======= Top of the Site Menu/Topo do Menu do Site ======= */
+.header {
+    width: 100%;
+    background: #d90404;
+    padding: 25px;
+}
+
+.topo {
+    text-align: right;
+}
+
+.topo ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+.topo ul li  a {
+    font-family: 'Arial' sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 15px;
+    text-decoration: none; /*up*/
+}
+
+.topo ul li  a:hover {
+    color: #f2e41b;
+}
+
+
+
+
+
+/* ======= Banner Section/Seção de Banner ======= */
+.banner {
+    width: 100%;
+    height: 400px;
+    background: url(../img/banner-1.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner h1 {
+    font-family: Oswald;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 110px;
+    text-shadow: black 2px 2px 10px;
+    margin-bottom: 50px;
+}
+
+.banner a {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 25px 20px;
+    width: 50px;
+    color: #fff;
+    background: #d90404;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 10px;
+    text-decoration: none;
+}
+
+.banner a:hover {
+    background: #f2e41b;
+    color: black;
+    text-decoration: underline;
+    transition: all 0.3s;
+    box-shadow: black 2px 2px 10px;    
+}
+
+
+/* ======= Combos Section/Seção de Combos ======= */
+.cardapio-combos h2 {
+    margin-top: 75px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #d90404;
+    text-transform: uppercase;
+}
+
+
+.cardapio-combos p {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #f2e41b;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.combo {
+    margin-top: 75px;
+}
+
+.combo li {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.combo img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+
+.combo img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.combo h3 {
+    background: #d90404;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.combo p {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: initial;
+}
+
+.combo h4 a {
+    background-color: green;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+.combo h4 a:hover {
+    background-color: #d90404;
+    color: #fff;
+    transition: 0.8 all;
+}
+
+
+
+/* ======= Slide Section/Seção de Slide ======= */
+.slide {
+    margin-top: 20px;
+}
+
+.slide h3 {
+    margin-top: 75px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #d90404;
+    text-transform: uppercase;
+}
+
+
+
+.slide p {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #f2e41b;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.slide img {
+    max-width: 150px;
+}
+
+.itens {
+    display: flex;
+    overflow-x: auto;
+}
+
+
+.itens img {
+    width: 100%;
+    height: 100%;
+    margin-left: 70px;
+}
+
+.slide {
+    flex: none;
+}
+
+
+
+
+/* ======= Location Section/Seção de Localização ======= */
+.localizacao h2 {
+    margin-top: 75px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #d90404;
+    text-transform: uppercase;
+}
+
+.localizacao p {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #f2e41b;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.localizacao2 {
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.localizacao {
+    text-align: center;
+}
+
+
+.localizacao a img {
+    margin-bottom: 40px;
+}
+
+
+/* ======= Footer Section/Seção de Rodapé ======= */
+.footer {
+    width: 100%;
+    height: 100px;
+    background: #d90404;
+}
+
+
+.footer h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+
+.footer h3 span {
+    color: #f2e41b;
+}
+
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+    background: #d90404;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background: #d90404;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f2e41b;
+}
+
+
+
+
+/*
+Gerador de Links
+- https://www.convertte.com.br/gerador-link-whatsapp/
+Cardapio
+- https://www.canva.com/
+*/
+
+
+
+
